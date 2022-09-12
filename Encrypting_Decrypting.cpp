@@ -1,7 +1,6 @@
-// This program can encrypt a message with a key and use the key to convert another message (Ciphertext) to plaintext.
 #include<iostream>
 using namespace std;
-// For Encrypting
+// For Encryption
 char encode(char *encode_msg,int KEY)
 {
     int i;
@@ -22,7 +21,7 @@ char encode(char *encode_msg,int KEY)
     }
     return encode_msg[i];
 }
-//For Decrypting
+//For Decryption
 char decode(char *decode_msg,int KEY)
 {
     int i;
